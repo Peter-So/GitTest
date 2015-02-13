@@ -1,0 +1,68 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{ list-style:none; margin:0; padding:0;}
+html{ height:100%; overflow:hidden;}
+body{ background: #757475; height:100%;}
+
+
+a {
+	position: relative;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #646464;
+	font-family: 'Microsoft YaHei';
+	font-weight: 700;
+	font-size: 1em;
+	display: block;
+	padding: 4px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0px 9px 0px rgba(58, 58, 58, 1), 0px 9px 25px rgba(0,0,0,.7);
+	-moz-box-shadow: 0px 9px 0px rgba(58, 58, 58, 1), 0px 9px 25px rgba(0,0,0,.7);
+	box-shadow:0px 9px 0px rgba(58, 58, 58, 1), 0px 9px 25px rgba(0,0,0,.7);
+	/* margin: 100px auto; */
+	width: 55px;
+	text-align: center;
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+	margin-top: 15px;
+}
+
+a:active {
+    -webkit-box-shadow: 0px 3px 0px rgba(58, 58, 58, 1), 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px rgba(58, 58, 58, 1), 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px rgba(58, 58, 58, 1), 0px 3px 6px rgba(0,0,0,.9);
+    position: relative;
+    top: 6px;
+}
+
+.img-left{}
+.img-right{margin-top: -1000px;margin-left: 550px;margin-bottom: 17px; }
+
+
+.top,.center,.bottom{position:absolute;box-shadow:1px 1px 10px 1px gray;}
+.top{ height:70px; left:0px; top:0px; right:0px; background-color:#757475;}
+.top img{ margin-top:7px;}
+
+.center{left: 0px; right: 0px; top: 70px; bottom: 70px;position: static; box-shadow:1px 1px 10px 1px gray;}
+.sign-left{width: 20px;margin-top: 25%;margin-left: 50px;position: absolute; filter:alpha(opacity=30);-moz-opacity:0.3;opacity:0.3; -khtml-opacity: 0.3;}
+.sign-right{position: relative;float: right;margin-top: 25%;margin-right: 50px;width: 20px; filter:alpha(opacity=30);-moz-opacity:0.3;opacity:0.3; -khtml-opacity: 0.3;}
+
+.bottom{height:70px; left:0px; right:0px; bottom:0px; background-color:#757475;}
+.bottom input{ margin-top:11px;}
+.bottom div ul {width:1421px;}
+.bottom div ul li{ float:left; margin-right:200px; margin-left:200px;}
+
+/*导航区
+.header {width: 100%;height: 550px;background: url(../images/headpic.jpg) no-repeat;background-size: 100%;}
+.header p {font-size: 400%;color: white;left: 42%;top: 47%;position: absolute;}
+
+.bodyer {width: 100%;height: 1200px;background-color: rgb(245, 251, 255);}
+.bcenter {width: 960px;height: 100%;position: absolute;left: 25%;padding-top: 50px;right: 25%;text-align: center;}
+.bcenter h2 {font-size: 200%;color: rgb(131, 131, 131);padding-bottom: 20px;}
+.bcenter p {font-size: 120%;color: rgb(131, 131, 131);padding-top: 20px;text-align: justify;line-height: 2;}
+*/
